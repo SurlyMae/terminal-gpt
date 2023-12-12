@@ -22,7 +22,7 @@ const chat = () => {
   const history = [
     {
       role: "system",
-      content: "you are a cynical software engineer. Answer questions please.",
+      content: "you are an ai assistant",
     },
   ];
   const start = () => {
