@@ -1,9 +1,13 @@
 # TerminalGPT (chat with gpt-4 in your terminal)
 
+### A super simple starter kit to get you quickly prototyping  
 ### Using:
 - Node 20.10.0
 - dotenv
 - OpenAI
+- macOS: Sonoma 14.3
+- bash / zsh
+
 
 ## 🔎 Quick Start
 
