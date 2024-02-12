@@ -1,4 +1,4 @@
-# TerminalGPT (chat with AI in your terminal)
+# TerminalGPT (chat with gpt-4 in your terminal)
 
 ### Using:
 - Node 20.10.0
