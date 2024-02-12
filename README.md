@@ -20,7 +20,7 @@
 ### Install dependencies
 
 ```bash
-$ npm -i
+$ npm i
 ```
 
 ### Start the chat
