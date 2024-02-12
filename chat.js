@@ -10,7 +10,7 @@ const readLine = readline.createInterface({
 const newMessage = async (history, message) => {
   const chatCompletion = await openAI.chat.completions.create({
     messages: [...history, message],
-    model: "gpt-3.5-turbo",
+    model: "gpt-4",
   });
 
   return chatCompletion.choices[0].message;
@@ -22,7 +22,8 @@ const chat = () => {
   const history = [
     {
       role: "system",
-      content: "you are an ai assistant",
+      content:
+        "You are a helpful AI assistant. Answer questions to the best of your ability",
     },
   ];
   const start = () => {
